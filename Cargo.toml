@@ -1,0 +1,13 @@
+[package]
+name = "monsterex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ansi-to-tui = "7.0.0"
+anyhow = "1.0.97"
+ratatui = "0.29.0"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+textwrap = "0.16.2"
+tui-input = "0.11.1"
